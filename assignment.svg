@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="527px" height="376px" viewBox="0 0 527 376" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="499" height="348" rx="21"></rect>
+        <filter x="-5.4%" y="-4.3%" width="110.8%" height="115.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="12" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.717421011   0 0 0 0 0.82813245   0 0 0 0 0.911166029  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop-HD-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-805.000000, -1492.000000)">
+        <g id="Group-10" transform="translate(819.000000, 1494.000000)">
+            <g id="Rectangle-12-Copy-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle-3-Copy-13" fill="#F4F4F4" x="58" y="192" width="120" height="10" rx="5"></rect>
+            <rect id="Rectangle-3-Copy-12" fill="#F4F4F4" x="58" y="167" width="326" height="10" rx="5"></rect>
+            <rect id="Rectangle-3-Copy-11" fill="#F4F4F4" x="58" y="142" width="363" height="10" rx="5"></rect>
+            <rect id="Rectangle-3-Copy-8" fill="#7754F8" x="309" y="246" width="120" height="45" rx="6"></rect>
+            <text id="Submit" font-family="Helvetica, Circular-Book, Circular" font-size="18" font-weight="300" fill="#FFFFFF">
+                <tspan x="341" y="274">Submit</tspan>
+            </text>
+            <rect id="Rectangle-3-Copy-10" fill="#F4F4F4" x="58" y="117" width="331" height="10" rx="5"></rect>
+            <rect id="Rectangle-3-Copy-9" fill="#F4F4F4" x="58" y="92" width="378" height="10" rx="5"></rect>
+            <text id="Problem-1" font-family="Helvetica, Circular-Book, Circular" font-size="25" font-weight="300" fill="#0A1032">
+                <tspan x="59" y="65">Problem 1</tspan>
+            </text>
+            <text id="Type-your-answer-her" font-family="Helvetica, Circular-Book, Circular" font-size="18" font-weight="300" fill="#C2C2C2">
+                <tspan x="58" y="280">Type your answer here…</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

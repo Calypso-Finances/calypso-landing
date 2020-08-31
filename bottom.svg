@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="485px" height="607px" viewBox="0 0 485 607" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Line 24 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C32AFF" offset="0%"></stop>
+            <stop stop-color="#9013FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop-HD-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -3418.000000)">
+        <path d="M484.113551,4025 L71.2496573,3900.94393 C18.35732,3885.05101 -11.6366292,3829.28953 4.25629688,3776.3972 C10.7824361,3754.67793 24.4973483,3735.82197 43.1505834,3722.92337 L484.113551,3418 L484.113551,4025 Z" id="Line-24-Copy-2" fill="url(#linearGradient-1)" transform="translate(242.056775, 3721.500000) scale(-1, 1) translate(-242.056775, -3721.500000) "></path>
+    </g>
+</svg>
