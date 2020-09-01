@@ -34,18 +34,4 @@ $(document).ready(function () {
         }
 
     });
-
-    // $(".institutions").autocomplete({
-    //     source: function (request, response) {
-    //         $.getJSON(
-    //             "http://universities.hipolabs.com/search?name=" + request.term,
-    //             function (data) {
-    //                 response(data);
-    //             }
-    //         );
-    //     },
-    //     minLength: 3
-    // });
-
-    // $(".institutions").autocomplete("option", "delay", 100);
 });

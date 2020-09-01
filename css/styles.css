@@ -1,26 +1,26 @@
 @font-face {
   font-family: "circular-book";
-  src: url(./fonts/circular/lineto-circular-pro-book.ttf);
+  src: url(../fonts/circular/lineto-circular-pro-book.ttf);
 }
 
 @font-face {
   font-family: "circular-book-italic";
-  src: url(./fonts/circular/lineto-circular-pro-bookItalic.ttf);
+  src: url(../fonts/circular/lineto-circular-pro-bookItalic.ttf);
 }
 
 @font-face {
   font-family: "circular-medium";
-  src: url(./fonts/circular/lineto-circular-pro-medium.ttf);
+  src: url(../fonts/circular/lineto-circular-pro-medium.ttf);
 }
 
 @font-face {
   font-family: "circular-bold";
-  src: url(./fonts/circular/lineto-circular-pro-bold.ttf);
+  src: url(../fonts/circular/lineto-circular-pro-bold.ttf);
 }
 
 @font-face {
   font-family: "circular-black";
-  src: url(./fonts/circular/lineto-circular-black.ttf);
+  src: url(../fonts/circular/lineto-circular-black.ttf);
 }
 
 body {
@@ -52,7 +52,7 @@ p {
   left: 0;
   width: 70%;
   height: 1100px;
-  background-image: url(top-left-big.svg);
+  background-image: url(../assets/top-left-big.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -65,7 +65,7 @@ p {
   right: 0;
   width: 50%;
   height: 1400px;
-  background-image: url(main-illustration.svg);
+  background-image: url(../assets/main-illustration.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -77,7 +77,7 @@ p {
   height: 1100px;
   top: 350%;
   left: 0;
-  background-image: url(bottom.svg);
+  background-image: url(../assets/bottom.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -272,7 +272,7 @@ p {
     left: 0;
     width: 30%;
     height: 1100px;
-    background-image: url(top-left.svg);
+    background-image: url(../assets/top-left.svg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -285,7 +285,7 @@ p {
     right: 0;
     width: 45%;
     height: 1100px;
-    background-image: url(main-illustration.svg);
+    background-image: url(../assets/main-illustration.svg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -297,7 +297,7 @@ p {
     height: 1100px;
     top: 350%;
     left: 0;
-    background-image: url(bottom.svg);
+    background-image: url(../assets/bottom.svg);
     background-repeat: no-repeat;
     background-size: 100%;
   }

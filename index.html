@@ -7,9 +7,39 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="logo.svg">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="sweetalert2.min.css">
+    <meta name="description"
+        content="Calypso is a reverse auction site that enables borrowers to create personalized loan proposals and publish their asks to a marketplace of lenders.">
+
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow"><!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+    <!-- OpenGraph tags -->
+    <meta property="og:url" content="https://calypsofi.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Calypso">
+    <meta property="og:image" content="https://calypsofi.com/assets/calypso-full-logo.svg">
+    <meta property="og:image:alt" content="Calypso company name and logo">
+    <meta property="og:description"
+        content="Calypso is a reverse auction site that enables borrowers to create personalized loan proposals and publish their asks to a marketplace of lenders.">
+    <meta property="og:site_name" content="Calypso">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter tags -->
+    <meta name="twitter:card"
+        content="Calypso is a reverse auction site that enables borrowers to create personalized loan proposals and publish their asks to a marketplace of lenders.">
+    <meta name="twitter:url" content="https://calypsofi.com/">
+    <meta name="twitter:title" content="Calypso">
+    <meta name="twitter:description"
+        content="Calypso is a reverse auction site that enables borrowers to create personalized loan proposals and publish their asks to a marketplace of lenders.">
+    <meta name="twitter:image" content="https://calypsofi.com/assets/calypso-full-logo.svg">
+    <meta name="twitter:image:alt" content="Calypso company name and logo">
+
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="apple-touch-icon" href="assets/logo.svg">
+    <link rel="mask-icon" href="assets/logo.svg" color="blue">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
     <title>Calypso</title>
 </head>
 
@@ -23,7 +53,7 @@
         <div class="title-page">
             <div class="title-text">
                 <div id="logo">
-                    <img class="img-fluid" width="200" src="calypso-full-logo.svg">
+                    <img class="img-fluid" width="200" src="assets/calypso-full-logo.svg">
                 </div>
                 <br />
                 <h1 style="font-size: 3em">Finding loans just got better.</h1>
@@ -51,7 +81,7 @@
         <div class="features-page">
             <div class="row " id="feature-row-1">
                 <div class="col-md-6" data-aos="fade-up">
-                    <img class="img-fluid" src="customize-terms.svg">
+                    <img class="img-fluid" src="assets/customize-terms.svg">
                 </div>
                 <div class="col-md-6">
                     <h3>Customize loan terms.</h3>
@@ -67,14 +97,14 @@
                         find out if they're working hard or hardly working.</p>
                 </div>
                 <div class="col-md-6" data-aos="fade-up">
-                    <img class="img-fluid" src="offers.svg">
+                    <img class="img-fluid" src="assets/offers.svg">
                 </div>
             </div>
 
 
             <div class="row " id="feature-row-3">
                 <div class="col-md-6" data-aos="fade-up">
-                    <img class="img-fluid" src="offer-detail.svg">
+                    <img class="img-fluid" src="assets/offer-detail.svg">
                 </div>
                 <div class="col-md-6">
                     <h3>Choose the best offer.</h3>
@@ -147,16 +177,16 @@
             <div class="container pt-5 border-bottom">
                 <div class="row pt-5">
                     <div class="col-md-3 col-sm-12 mb-3 text-center">
-                        <img src="calypso-full-logo.svg" width="200"></img>
+                        <img src="assets/calypso-full-logo.svg" width="200"></img>
                     </div>
                     <div class="col-md-9 col-sm-12">
                         <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
                             <h5 class="mb-4 font-weight-bold text-uppercase">Company</h5>
                             <ul class="list-group">
-                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
-                                        href="#"></i>About</a></li>
-                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
-                                        href="#"></i> Blog</a></li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>About</a>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i> Blog</a>
+                                </li>
                             </ul>
                         </div>
 
@@ -197,11 +227,23 @@
         </footer>
 
 
-        <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="sweetalert2.min.js"></script>
-        <script type="text/javascript" src="index.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176922014-1"></script>
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/sweetalert2.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
 
         <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-176922014-1');
+            gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+
             $("#learnMore").click(function () {
                 $('html,body').animate({
                         scrollTop: $("#feature-row-1").offset().top - 30
