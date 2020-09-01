@@ -164,13 +164,13 @@ p {
   transform: scale(1.05);
 }
 
-.pricing-page {
+.section {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
-.pricing-page h2 {
+.section h2 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -391,13 +391,13 @@ p {
     transform: scale(1.05);
   }
 
-  .pricing-page {
+  .section {
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 200px;
   }
 
-  .pricing-page h2 {
+  .section h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -506,4 +506,17 @@ input {
 
 .title-text input {
   font-size: 1.1em;
+}
+
+.rounded-circle {
+  box-shadow: 0 12px 25px -11px #b7d3e8 !important;
+  width: 80%;
+}
+
+.fa-linkedin {
+  color: #3176b0;
+}
+
+.social-links > a > i {
+  font-size: 1.5em;
 }

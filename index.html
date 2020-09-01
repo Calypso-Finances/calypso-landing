@@ -26,8 +26,7 @@
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter tags -->
-    <meta name="twitter:card"
-        content="summary">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://calypsofi.com/">
     <meta name="twitter:title" content="Calypso">
     <meta name="twitter:description"
@@ -40,6 +39,7 @@
     <link rel="mask-icon" href="assets/logo.svg" color="blue">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Calypso</title>
 </head>
 
@@ -67,14 +67,6 @@
                 </form>
                 <p id="error" class="d-none"></p>
                 <button class="mt-4" id="learnMore">Learn More</button>
-
-                <!-- <div class="form-row">
-                    <div class="form-group col-md-10">
-                        <label for="emailInput">EMAIL</label>
-                        <input autocomplete="off" name="emailInput" type="email" class="form-control"
-                            id="emailInput">
-                    </div>
-                </div> -->
             </div>
         </div>
 
@@ -114,7 +106,7 @@
             </div>
         </div>
 
-        <div class="pricing-page">
+        <div class="section">
             <h2>So, how much does all this cost anyway?</h2>
             <div class="row">
                 <div class="col-md-4" data-aos="slide-up">
@@ -168,6 +160,58 @@
                                 <li class="list-group-item">Weekly Box of Chocolates</li>
                             </ul>
                             <a href="#" class="get-started">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Partners</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="assets/bab-logo.png" />
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="assets/skydeck.png" />
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="assets/scet.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Who are we?</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <img src="assets/female.jpg" alt="Picture of Sarah Everson" class="rounded-circle img-fluid">
+                        <h3 class="mt-5">Sarah Everson</h3>
+                        <div class="social-links">
+                            <a><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/sai.jpg" alt="Picture of Sriharsha Guduguntla"
+                            class="rounded-circle img-fluid">
+                        <h3 class="mt-5">Sriharsha Guduguntla</h3>
+                        <div class="social-links">
+                            <a target="_blank" href="https://www.linkedin.com/in/sguduguntla/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/siggy.jpg" alt="Picture of Sigurd Eilerás" class="rounded-circle img-fluid">
+                        <h3 class="mt-5">Sigurd Eilerás</h3>
+                        <div class="social-links">
+                            <a target="_blank" href="https://www.linkedin.com/in/sigurd-eileraas/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/edward.jpg" alt="Picture of Edward Yam" class="rounded-circle img-fluid">
+                        <h3 class="mt-5">Edward Yam</h3>
+                        <div class="social-links">
+                            <a target="_blank" href="https://www.linkedin.com/in/edward-yam-63555075/"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -242,7 +286,9 @@
             gtag('js', new Date());
 
             gtag('config', 'UA-176922014-1');
-            gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+            gtag('set', {
+                'user_id': 'USER_ID'
+            }); // Set the user ID using signed-in user_id.
 
             $("#learnMore").click(function () {
                 $('html,body').animate({
