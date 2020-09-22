@@ -34,7 +34,7 @@
     <meta name="twitter:image" content="https://calypsofi.com/assets/logo.png">
     <meta name="twitter:image:alt" content="Calypso logo">
 
-    <link rel="icon" href="assets/logo.png">
+    <link rel="icon" href="assets/favicon.ico">
     <link rel="apple-touch-icon" href="assets/logo.png">
     <link rel="mask-icon" href="assets/logo.png" color="blue">
     <link rel="stylesheet" href="css/styles.css">
@@ -44,20 +44,46 @@
 </head>
 
 <body>
-    <div class="root">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"><img class="img-fluid" width="150" src="assets/calypso-full-logo.svg"
+                alt="Calypso logo and company name"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div id="right"></div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active mr-3">
+                    <a class="nav-link px-2" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active mr-3">
+                    <a class="nav-link px-2" href="#features">How it Works <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active mr-3">
+                    <a class="nav-link px-2" href="#pricing">Pricing <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active mr-3">
+                    <a class="nav-link px-2" href="#partners">Partners <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active mr-3">
+                    <a class="nav-link px-4 login-btn" href="/app/">Login <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-5">
+                    <a class="nav-link px-4 signup-btn" href="/app/signup">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="root">
         <div id="top-left"></div>
         <div id="main-illustration"></div>
 
         <div class="title-page">
             <div class="title-text">
-                <div id="logo">
-                    <img class="img-fluid" width="200" src="assets/calypso-full-logo.svg" alt="Calypso logo and company name">
-                </div>
-                <br />
                 <h1 style="font-size: 3em">Finding loans just got better.</h1>
-                <p>Synergizing borrowers and lenders on our most competitive loan marketplace. Coming Soon!</p>
+                <p>Synergizing borrowers and lenders on the most competitive loan marketplace.</p>
                 <form class="form-inline emailForm">
                     <div class="form-group mr-sm-3 mb-2">
                         <label for="inputPassword2" class="sr-only">Password</label>
@@ -66,11 +92,13 @@
                     <button type="submit" class="mb-2 p-3 join-mailing-list">Join Mailing List</button>
                 </form>
                 <p id="error" class="d-none"></p>
-                <button class="mt-4" id="learnMore">Learn More</button>
+                <button class="mt-4 large-action-btn" id="learnMore">Learn More</button>
+                <a href="/app/signup"><button class="mt-4 ml-4 large-action-btn">Sign
+                        Up</button></a>
             </div>
         </div>
-
-        <div class="features-page">
+        <div id="features" class="features-page section">
+            <h2>How does it work?</h2>
             <div class="row " id="feature-row-1">
                 <div class="col-md-6" data-aos="fade-up">
                     <img class="img-fluid" src="assets/customize-terms.svg" alt="Loan term customization graphic">
@@ -106,7 +134,7 @@
             </div>
         </div>
 
-        <div class="section">
+        <div id="pricing" class="section">
             <h2>So, how much does all this cost anyway?</h2>
             <div class="row">
                 <div class="col-md-6" data-aos="slide-up">
@@ -147,7 +175,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div id="partners" class="section">
             <h2>Partners</h2>
             <div class="container-fluid">
                 <div class="row">
@@ -158,12 +186,13 @@
                         <img class="img-fluid" src="assets/skydeck.png" alt="Berkeley Skydeck logo" />
                     </div>
                     <div class="col-md-4">
-                        <img class="img-fluid" src="assets/scet.png" alt="Sutardja Center for Entrepreneurship and Technology (SCET) logo" />
+                        <img class="img-fluid" src="assets/scet.png"
+                            alt="Sutardja Center for Entrepreneurship and Technology (SCET) logo" />
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div id="about" class="section">
             <h2>Who are we?</h2>
             <div class="container-fluid">
                 <div class="row">
@@ -213,9 +242,21 @@
                         <div class="col-md-3 col-sm-6 col-6 mb-3 p-0 float-left">
                             <h5 class="mb-4 font-weight-bold text-uppercase">Company</h5>
                             <ul class="list-group">
-                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i>About</a>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                        href="#about"></i>About</a>
                                 </li>
-                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"></i> Blog</a>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#features"></i>How
+                                        it
+                                        Works</a>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                        href="#pricing"></i>Pricing</a>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a
+                                        href="#partners"></i>Partners</a>
+                                </li>
+                                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="/app/"></i> Try it
+                                        out</a>
                                 </li>
                             </ul>
                         </div>
@@ -245,8 +286,8 @@
                                 <p id="error" class="d-none"></p>
                             </ul>
                         </div>
-
                     </div>
+
                     <div class="col-md-12">
                         <div class="py-4 d-flex justify-content-center align-items-center">
                             © 2020 Calypso Finances. All Rights Reserved
@@ -276,12 +317,6 @@
                 'user_id': 'USER_ID'
             }); // Set the user ID using signed-in user_id.
 
-            $("#learnMore").click(function () {
-                $('html,body').animate({
-                        scrollTop: $("#feature-row-1").offset().top - 30
-                    },
-                    1500);
-            });
         </script>
 
 </body>

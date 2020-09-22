@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: #f4f8fb;
+  background-color: #fff;
   color: #0a1032;
 }
 
@@ -38,7 +38,13 @@ p {
   font-family: "circular-book";
 }
 
-.root {
+nav {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  padding-left: 80px !important;
+}
+
+#root {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -48,7 +54,7 @@ p {
   z-index: -999;
   float: left;
   position: absolute;
-  top: 0;
+  top: 12%;
   left: 0;
   width: 70%;
   height: 1100px;
@@ -61,7 +67,7 @@ p {
   z-index: -999;
   float: right;
   position: absolute;
-  top: 0;
+  top: 12%;
   right: 0;
   width: 50%;
   height: 1400px;
@@ -111,8 +117,38 @@ p {
   margin-right: auto;
 }
 
-#learnMore {
+.login-btn {
   outline: none;
+  background: #0094fc;
+  border-radius: 100px;
+  border: none;
+  color: white !important;
+  font-family: "circular-black";
+  font-size: 1.2em;
+  transition: all 0.4s ease-in-out;
+}
+
+.login-btn:hover {
+  transform: scale(1.05);
+}
+
+.signup-btn {
+  outline: none;
+  border-radius: 100px;
+  background:#f4f4f4;
+  border: none;
+  color: black !important;
+  font-family: "circular-black";
+  font-size: 1.2em;
+  transition: all 0.4s ease-in-out;
+}
+
+.signup-btn:hover {
+  transform: scale(1.05);
+}
+
+.large-action-btn {
+  outline: none !important;
   background: #0094fc;
   border-radius: 100px;
   border: none;
@@ -126,12 +162,10 @@ p {
   transition: all 0.5s ease-in-out;
 }
 
-#learnMore:hover {
-  outline: none;
+.large-action-btn:hover {
   background: white;
   transform: scale(1.1);
   color: #0094fc;
-  font-family: "circular-black";
 }
 
 .features-page {
@@ -258,7 +292,7 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  .root {
+  #root {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -511,10 +545,6 @@ input {
 .rounded-circle {
   box-shadow: 0 12px 25px -11px #b7d3e8 !important;
   width: 80%;
-}
-
-.fa-linkedin {
-  color: #3176b0;
 }
 
 .social-links > a > i {
